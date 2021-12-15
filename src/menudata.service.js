@@ -2,7 +2,8 @@
 'use strict';
 
 angular.module('MenuApp')
- .constant('ApiBasePath', "http://127.0.0.1/davids-restaurant")
+ // .constant('ApiBasePath', "http://127.0.0.1/davids-restaurant")
+ .constant('ApiBasePath', "https://davids-restaurant.herokuapp.com")
  .service('MenuDataService', MenuDataService);
 
 
