@@ -1,0 +1,33 @@
+<NotepadPlus>
+    <Project name="assignment4">
+        <Folder name="css">
+            <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\css\styles.css" />
+        </Folder>
+        <Folder name="lib">
+            <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\lib\angular-ui-router.js" />
+            <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\lib\angular.min.js" />
+            <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\lib\stateEvents.js" />
+        </Folder>
+        <Folder name="src">
+            <Folder name="spinner">
+                <File name="spinner\loadingspinner.component.js" />
+                <File name="spinner\loadingspinner.template.html" />
+                <File name="spinner\spinner.module.js" />
+            </Folder>
+            <Folder name="templates">
+                <File name="templates\categories.template.html" />
+                <File name="templates\home.template.html" />
+                <File name="templates\categories-list.template.html" />
+            </Folder>
+            <File name="categories-list.controller.js" />
+            <File name="categories.component.js" />
+            <File name="menuapp.module.js" />
+            <File name="menudata.service.js" />
+            <File name="notepad_ws.xml" />
+            <File name="routes.js" />
+        </Folder>
+        <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\favicon.ico" />
+        <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\index.html" />
+        <File name="D:\Coursera\Angular\Johns_Hopkins\Week4\assignment-4\README.md" />
+    </Project>
+</NotepadPlus>

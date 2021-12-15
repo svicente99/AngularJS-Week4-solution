@@ -1,0 +1,50 @@
+body {
+  font-size: 1.1em;
+}
+
+h1, h3 	{ color: #a0a0a0; margin-top: -8px; }
+h3     	{ position: relative; top: -12px; }
+h2     	{ color: blue; font-family: Arial, sans-serif; }
+
+hr		{ border: solid #606060 1pt; }
+
+.loading-icon {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  z-index: +2;
+}
+
+.active {
+  font-weight: bold;
+}
+
+a {text-decoration:none;}
+
+a[ui-sref]:hover {
+  display: inline-block;
+  cursor: pointer;
+  border: solid black 1px;
+  padding-left: 5px; padding-right: 5px;
+  background-color: #e0e0e0;
+}
+
+ul {list-style-image: url('../images/icon_plate.png');
+}
+
+li	{font-size: 0.8em;
+     font-family: Tahoma, sans-serif;
+	 margin-left: 0px;
+}
+
+.category, .list { color: blue; }
+.arrow	{ padding-right: 5px; }
+
+#github {
+    position: absolute;
+    top: 0px; right: 0px;
+    width: 150px; height: 50px;
+    background-color: #d0d0d0;
+	padding: 10px 0px 0px 10px;
+	font-size: 0.8em;
+}

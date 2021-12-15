@@ -1,0 +1,12 @@
+<a ui-sref="home">Home</a> &larr;
+ <a ui-sref="categories">Categories</a> &larr;
+  <span class='category'>{{ list2.longName }}</span>
+<hr>
+<ul>
+	<li ng-repeat="data in list2.items">
+	  {{ data.short_name }} - <strong>{{ data.name }}</strong><br>
+	  {{ data.description }} <br ng-if="data.description.length">
+	  price: {{ data.price_small }} 
+	  <span class="arrow" ng-if="data.price_small>0">&rarr;</span>{{ data.price_large }}
+	</li>
+</ul>

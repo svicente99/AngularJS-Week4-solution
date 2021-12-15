@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+  <head>
+    <title>Menu App - Assignment 4 - Johns Hopkins University</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body ng-app='MenuApp'>
+    <h1>Restaurant Menu App</h1>
+    <h3>Assignment 4 - by Sergio Vicente [Single Page Web Applications with AngularJS]</h3>
+
+    <ui-view></ui-view>
+	
+	<loading-spinner></loading-spinner>    
+	
+	<!-- Libraries -->
+    <script src="lib/angular.min.js"></script>
+    <script src="lib/angular-ui-router.js"></script>
+    <script src="lib/stateEvents.js"></script>
+
+    <!-- Modules -->
+    <script src="src/menuapp.module.js"></script>
+
+    <!-- Routes -->
+    <script src="src/routes.js"></script>
+    <!-- 'Menu App' module artifacts -->
+    <script src="src/categories.component.js"></script>
+    <script src="src/categories-list.controller.js"></script>
+    <script src="src/items.component.js"></script>
+    <script src="src/items-list.controller.js"></script>    
+	<script src="src/menudata.service.js"></script>
+
+  <hr>
+  <div id="github">
+	Source code repository:<br><a href="https://github.com/svicente99/AngularJS-Week4-solution" target="_new">
+	Visit the Github project</a>
+  </div>   
+  </body>
+</html>
